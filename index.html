@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CRONOLOGIA UCM</title>
 	<style>
 		body{
 			background-image: url('UCM.jpg');
 			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+			font-family: Arial, sans-serif;
 		}
 		.cuerpo{
 			background-color: rgba(255, 255, 255, 0.9);
@@ -13,8 +17,11 @@
 			border-radius: 10px;
 			text-align: left;
 			align-content: center;
-			font-size: x-large;
+			font-size: 18px;
 			align-items: center;
+			max-width: 800px;
+			margin: 20px auto;
+			padding: 20px;
 		}
 		ol{
 			list-style-position: inside;
@@ -30,6 +37,25 @@
 			margin: 10px;
 			padding: 10px;
 		}
+		ol, ul {
+  list-style-position: inside;
+  padding-left: 20px;  /* Añadido para mejor espaciado */
+}
+		li {
+  margin-bottom: 8px;  /* Añadido para mejor legibilidad */
+}
+		@media (max-width: 600px) {
+  .cuerpo {
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .lol {
+    font-size: 1.5rem;
+  }
+}
+
 	</style>
 </head>
 <body>
@@ -146,3 +172,4 @@
 </body>
 
 </html>
+
